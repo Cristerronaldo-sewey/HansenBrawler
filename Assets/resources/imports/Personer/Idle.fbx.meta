@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2400007cf3b404590a33ce3628f14c4e
+guid: 5982458179b104d37ae00f52fcda2522
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -37,11 +37,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Headbutt
+      name: Idle
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 67
+      lastFrame: 250
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
