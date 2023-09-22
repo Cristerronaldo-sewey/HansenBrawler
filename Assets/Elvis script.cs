@@ -34,6 +34,16 @@ public class KongElvis : Player
             // Set the "Punch" trigger to transition to the punch animation state.
             Punch();
         }
+        // Detect when you want to trigger the punch animation, for example, by pressing a button.
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            Dropkick();
+        }
+
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            MmaKick();
+        }
     }
 
     public void Punch()
@@ -42,6 +52,25 @@ public class KongElvis : Player
         Animator animator = GetComponent<Animator>();
 
         animator.SetTrigger("Punch");
+
+    }
+
+  public void Dropkick()
+        {
+
+        //punch
+        Animator animator = GetComponent<Animator>();
+
+        animator.SetTrigger("Dropkick");
+
+    }
+public void MmaKick()
+        {
+
+        //punch
+        Animator animator = GetComponent<Animator>();
+
+        animator.SetTrigger("MmaKick");
 
     }
 
